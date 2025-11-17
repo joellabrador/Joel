@@ -1,4 +1,47 @@
 .boton{
-    padding: 0,5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius : 10px;
+    text-decoration: none;
+}
+.homeLogo{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+header{
+    position:sticky;
+    top:0;
+    z-index: 1000;
+    background-color: black;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .rightNav a:hover{
+    background-color: gray;
+}
+nav > div{
+    display:flex;
+    justify-content: left;
+}
+.rightNav{
+    display: flex;
+    justify-content: right;
+}
+.homeLogo span{
+    background: linear-gradient(90deg, #CFFF04, #04d9ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    color: white;
 }
