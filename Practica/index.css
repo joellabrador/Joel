@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+}
+header{
+    position:sticky;
+    top:0;
+    z-index: 1000;
+    background-color: black;
+}
+nav{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeLogo{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+nav .rightNav a:hover{
+    background-color: gray;
+    
+}
+nav > div{
+    display:flex;
+    justify-content: left;
+}
+.rightNav{
+    display: flex;
+    justify-content: right;
+}
+.homeLogo span{
+    /* 1. Define the gradient background */
+    background: linear-gradient(90deg, #D946EF, #38BDF8); /* Updated gradient to match image */
+
+    /* 2. Clip the background to the text shape */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* 3. Make the text color transparent to show the gradient */
+    color: transparent;
+    
+    /* Prevents hover underline from appearing */
+    text-decoration: none;
+}
+
