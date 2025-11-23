@@ -42,7 +42,7 @@ body{
     color: white;
     margin-left: 10%;
     margin-right: 10%;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
 

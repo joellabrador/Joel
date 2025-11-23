@@ -1,2 +1,43 @@
+.lanzamientos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.articleLanzamientos{
+    flex: 20%;
+}
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.headerSection h2{
+    margin: 0;
+}
+.ranking{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+    grid-auto-flow: column; 
+}
 
+.festivales{
+    display: flex;
+    justify-content: space-between;
+}
+.festivales-container section h2{
+    width: 100%;
+    margin: 20px;
+}
+.festivales-container{
+    display: flex;
+    align-items: flex-start;
+}
+.artistasDestacados{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
 
+.artistaItem{
+    flex: 25%;
+}
